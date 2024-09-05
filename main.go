@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"github.com/samuelbanya/goweathercli/cmd"
 )
 
 func main() {
-	fmt.Println("Hello Worlds!")
+	// fmt.Println("Hello Worlds!")
+	cmd.Execute()
 }
-
-
